@@ -1,0 +1,26 @@
+$(document).ready(function(){
+  $("#About").click(function(){
+    $("#about").show();
+    $("#contact").hide();
+    $("#portfolio").hide();
+    $("#About").css("background-color","violet");
+    $("#Contact").css("background-color","purple");
+    $("#Portfolio").css("background-color","purple");
+  });
+  $("#Contact").click(function(){
+    $("#about").hide();
+    $("#contact").show();
+    $("#portfolio").hide();
+    $("#About").css("background-color","purple");
+    $("#Contact").css("background-color","violet");
+    $("#Portfolio").css("background-color","purple");
+  });
+  $("#Portfolio").click(function(){
+    $("#about").hide();
+    $("#contact").hide();
+    $("#portfolio").show();
+    $("#About").css("background-color","purple");
+    $("#Contact").css("background-color","purple");
+    $("#Portfolio").css("background-color","violet");
+  });
+});
