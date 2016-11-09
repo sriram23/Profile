@@ -1,11 +1,12 @@
 body{
   background-color:violet;
   font-size: 35px;
+  color:white;
 }
 h1{
   text-align:center;
 }
-#top-section{
+#top-section,footer{
   padding:5px;
   background-color:purple;
   color:white;
@@ -91,4 +92,17 @@ h4{
 }
 .photoTd{
     padding:50px;
+}
+.foot{
+    width:30px;
+    text-align:right;
+}
+.greyTxt{
+    font-size:25px;
+    color:grey;
+    align:right;
+}
+.icn{
+    width:30px;
+    height:30px;
 }
